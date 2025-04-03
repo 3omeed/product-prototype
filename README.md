@@ -1,4 +1,4 @@
-# ChronoElite - Premium Watch Showcase
+# Nexus Pro - Premium Watch Showcase
 
 ![Website Preview](screenshots/preview.jpg)
 
