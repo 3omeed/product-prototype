@@ -1,7 +1,7 @@
 # Nexus Pro - Premium Watch Showcase
 
 ![Website Preview](screenshots/preview.jpg)
-
+live site : [here](http://abdelrahmanemad.me/product-prototype/)
 A sophisticated one-page website showcasing luxury watches with Apple-inspired design aesthetics. Built with pure HTML, CSS, and JavaScript.
 
 ## Key Features
