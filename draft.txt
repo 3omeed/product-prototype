@@ -1,0 +1,286 @@
+ <section class="gallery" id="gallery" aria-label="Product Gallery">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Crafted to Perfection</h2>
+          <p class="section-subtitle">Explore every exquisite detail</p>
+        </div>
+
+        <div class="gallery-container">
+          <!-- Main Showcase Image -->
+          <div class="gallery-showcase" data-aos="zoom-in">
+            <div class="showcase-inner">
+              <img
+                src="images/product-1.jpg"
+                alt="Product showcase"
+                class="showcase-image active"
+                loading="lazy"
+              />
+            </div>
+            <div class="showcase-caption">
+              <span class="caption-text"
+                >Aerospace-grade aluminum enclosure</span
+              >
+              <span class="caption-counter">1/6</span>
+            </div>
+          </div>
+
+          <!-- Thumbnail Grid -->
+          <div class="gallery-thumbnails">
+            <div
+              class="thumbnail-track"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="thumbnail-item active" data-index="0">
+                <img
+                  src="/images/product-1.jpg"
+                  alt="Product angle 1"
+                  loading="lazy"
+                />
+                <div class="thumbnail-overlay"></div>
+              </div>
+
+              <div class="thumbnail-item" data-index="1">
+                <img
+                  src="/images/product-2.jpg"
+                  alt="Product angle 2"
+                  loading="lazy"
+                />
+                <div class="thumbnail-overlay"></div>
+              </div>
+
+              <div class="thumbnail-item" data-index="2">
+                <img
+                  src="/images/product-3.jpg"
+                  alt="Product angle 3"
+                  loading="lazy"
+                />
+                <div class="thumbnail-overlay"></div>
+              </div>
+
+              <div class="thumbnail-item" data-index="3">
+                <img
+                  src="images/product-main.jpg"
+                  alt="Product detail 1"
+                  loading="lazy"
+                />
+                <div class="thumbnail-overlay"></div>
+              </div>
+
+              <div class="thumbnail-item" data-index="4">
+                <img
+                  src="images/product-tech.jpg"
+                  alt="Product detail 2"
+                  loading="lazy"
+                />
+                <div class="thumbnail-overlay"></div>
+              </div>
+
+              <div class="thumbnail-item" data-index="5">
+                <img src="images/ss.jpg" alt="Product in use" loading="lazy" />
+                <div class="thumbnail-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="specs" id="specs" aria-label="Technical Specifications">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Precision Engineered</h2>
+          <p class="section-subtitle">Every specification serves a purpose</p>
+        </div>
+
+        <div class="specs-grid" data-aos="fade-up" data-aos-delay="100">
+          <!-- Left Column - 3D Product Visualization -->
+          <div class="specs-visual">
+            <div class="visual-container">
+              <div class="product-3d" id="product-3d-view">
+                <!-- 3D model will be injected here -->
+                <img
+                  src="images/product-3.jpg"
+                  alt="3D Product Visualization"
+                  class="visual-base"
+                  loading="lazy"
+                />
+              </div>
+              <div class="visual-controls">
+                <button
+                  class="control-btn"
+                  data-rotate="y-minus"
+                  aria-label="Rotate left"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                  >
+                    <path
+                      d="M15 18l-6-6 6-6"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+                <div class="control-label">360° Rotation</div>
+                <button
+                  class="control-btn"
+                  data-rotate="y-plus"
+                  aria-label="Rotate right"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                  >
+                    <path
+                      d="M9 18l6-6-6-6"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column - Technical Specs -->
+          <div class="specs-details">
+            <div class="specs-tabs">
+              <button class="tab-btn active" data-tab="dimensions">
+                Dimensions
+              </button>
+              <button class="tab-btn" data-tab="materials">Materials</button>
+              <button class="tab-btn" data-tab="performance">
+                Performance
+              </button>
+            </div>
+
+            <div class="specs-content">
+              <!-- Dimensions Tab -->
+              <div class="tab-pane active" id="dimensions">
+                <div class="spec-item" data-highlight="size">
+                  <h3 class="spec-category">Size & Weight</h3>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="spec-name">Height</span>
+                      <span class="spec-value">147.6 mm</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Width</span>
+                      <span class="spec-value">71.5 mm</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Depth</span>
+                      <span class="spec-value">7.8 mm</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Weight</span>
+                      <span class="spec-value">187 g</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="spec-item" data-highlight="display">
+                  <h3 class="spec-category">Display</h3>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="spec-name">Type</span>
+                      <span class="spec-value">Super Retina XDR</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Size</span>
+                      <span class="spec-value">6.1 inches</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Resolution</span>
+                      <span class="spec-value">2532×1170 pixels</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Materials Tab -->
+              <div class="tab-pane" id="materials">
+                <div class="spec-item" data-highlight="enclosure">
+                  <h3 class="spec-category">Enclosure</h3>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="spec-name">Material</span>
+                      <span class="spec-value">Aerospace-grade aluminum</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Finish</span>
+                      <span class="spec-value">Matte anodized</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Color</span>
+                      <span class="spec-value">Graphite</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="spec-item" data-highlight="durability">
+                  <h3 class="spec-category">Durability</h3>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="spec-name">Water Resistance</span>
+                      <span class="spec-value">IP68 (6m for 30 min)</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Glass</span>
+                      <span class="spec-value">Ceramic Shield</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Performance Tab -->
+              <div class="tab-pane" id="performance">
+                <div class="spec-item" data-highlight="processor">
+                  <h3 class="spec-category">Processor</h3>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="spec-name">Chip</span>
+                      <span class="spec-value">Quantum X1</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Cores</span>
+                      <span class="spec-value">8-core CPU</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Neural Engine</span>
+                      <span class="spec-value">16-core</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="spec-item" data-highlight="battery">
+                  <h3 class="spec-category">Battery</h3>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="spec-name">Capacity</span>
+                      <span class="spec-value">5000 mAh</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Fast Charge</span>
+                      <span class="spec-value">50% in 15 min</span>
+                    </li>
+                    <li>
+                      <span class="spec-name">Wireless</span>
+                      <span class="spec-value">MagSafe compatible</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
